@@ -1,0 +1,157 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+html, body {
+    padding: 0;
+    margin: 0;
+	font-family: Avenir,Helvetica,Arial,sans-serif !important;
+	font-size: 13px;
+}
+.fullContainer {
+    width: 100%;   
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    border-left-color: #000;
+    border-left-style: solid;
+    border-left-width: 1px;
+	border-right-color: #000;
+    border-right-style: solid;
+    border-right-width: 1px;
+	border-top-color: #000;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+header {
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background: #dbe2ff;
+    height: 50px;
+}
+.headerContent {
+    padding-top: 7px;
+}
+.hvcLogo {
+    height: 35px;
+	margin-left:10px;
+}
+.logoSeperator {
+	font-size: 20px;
+}
+.appName {
+    top: -8px;
+    left: 10px;
+	color: #05588a;
+    position: relative;
+}
+.username {
+    top: 14px;
+    right: 10px;
+    color: #000;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+}
+.appText {
+	margin-left:10px;
+	font-size: 13px;
+    font-weight: bold;
+    position: relative;
+}
+.displayInline {
+	display: inline-block;
+}
+.pageTitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px;
+	padding-top: 10px;
+	color: #1a6b8e;
+}
+.pageContent {
+    margin: 15px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.pageContentData {
+	background: #f9f9f9;
+	border: 1px solid #f3f3f3;
+}
+.formControl {
+    padding: 15px 10px 6px 20px;
+}
+.floatRight {
+	float:right;
+}
+.formlabel {
+    margin-bottom: 5px;
+	font-weight: bold;
+}
+.formField {
+    margin-bottom: 1px;
+}
+.mandatory {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+.width350px {
+	width:350px;
+}
+.marginBottom10px {
+	margin-bottom:10px;
+}
+input[type=text] {
+	height:25px;
+}
+select {
+	height:30px;
+}
+.primaryButton {
+    height: 30px;
+    background: #a0cee0;
+    border: 1px solid #518ca2;
+    border-radius: 5px;
+    width: 100px;
+	font-weight:bold;
+}
+.primaryButton:hover {
+	background: #86bbd0;
+	cursor:pointer;
+}
+.secondaryButton {
+    height: 30px;
+    background: #ccc;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    width: 150px;
+	font-weight:bold;
+}
+.secondaryButton:hover {
+	background: #afafaf;
+	cursor:pointer;
+}
+.marginLeft10px {
+	margin-left:10px;
+}
+.marginRight10px {
+	margin-right:10px;
+}
+.paddingBottom25px {
+	padding-bottom: 25px;
+}
+.clearFloat {
+	clear:both;
+}
+footer {
+	height: 12px;
+    background: #000;
+    width: 1200px;
+    margin: 0 auto;
+	border-left-color: #000;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
